@@ -1,7 +1,9 @@
+import Main from './layouts/main';
+
 function App() {
   return (
-    <div className="text-2xl">
-      <h1>hi</h1>
+    <div className="text-9xl text-center">
+      <Main />
     </div>
   );
 }
