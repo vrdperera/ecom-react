@@ -2,8 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-/*  font-family:  sans-serif; */
+@layer base {
+  html {
+    font-family: 'Krona One', sans-serif;
+  }
+}
 
 body {
-  font-family: 'Poppins', 'Krona One', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  @apply text-dark bg-light-grey;
 }
